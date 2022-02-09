@@ -2,6 +2,71 @@
   text-align: center;
 }
 
+.showtpid{
+  display: flex;
+  margin-left: 40px;
+  margin-left: 1300px;
+  color:blue;
+  text-align:start;
+}
+.legends{
+  display: block;
+  margin-left: 1600px;
+}
+.map-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  margin-right: 20px;
+  font-family: Arial, sans-serif;
+  overflow: auto;
+  border-radius: 3px;
+}
+#legend {
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  line-height: 18px;
+  height: 150px;
+  margin-bottom: 120px;
+  width: 170px;
+}
+.legend-key {
+  display: inline-block;
+  border-radius: 20%;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.tpid_commentbox{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border: 1px solid rgb(211, 211, 211);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 750px;
+}
+
+.sidebar {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: yellowgreen;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
